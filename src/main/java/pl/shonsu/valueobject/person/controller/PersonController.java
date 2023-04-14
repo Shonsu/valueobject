@@ -7,8 +7,8 @@ import pl.shonsu.valueobject.person.model.NaturalPersonName;
 import pl.shonsu.valueobject.person.model.Person;
 import pl.shonsu.valueobject.person.repository.PersonRepository;
 
-@RequestMapping("/person")
 @RestController
+@RequestMapping("/person")
 class PersonController {
     private final PersonRepository personRepository;
 
